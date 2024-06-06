@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/euli.jpeg');
+    background-image: url('euli.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,8 +29,4 @@ body {
 .content {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
