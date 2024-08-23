@@ -18,8 +18,8 @@ body {
 
 /* Base style for the logo */
 .small-logo {
-    max-width: 500px;  /* Maximum width for larger screens */
-    max-height: 200px; /* Maximum height for larger screens */
+    max-width: 300px;  /* Maximum width for larger screens */
+    max-height: 50px; /* Maximum height for larger screens */
     width: auto;       /* Make the logo responsive */
     height: auto;      /* Maintain aspect ratio */
     position: absolute;
@@ -37,7 +37,7 @@ body {
 @media (max-width: 768px) {
     .small-logo {
         max-width: 70%; /* Scale down for smaller devices */
-        max-height: 150px;
+        max-height: 50px;
     }
 }
 
@@ -45,7 +45,7 @@ body {
 @media (max-width: 480px) {
     .small-logo {
         max-width: 90%; /* Further scale down for very small devices */
-        max-height: 100px;
+        max-height: 50px;
         margin: 5px; /* Adjust margin for smaller screens */
     }
 }
